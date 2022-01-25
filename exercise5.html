@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Wikipedia" content="Rush">
+    <meta name="Rush(band)" content="Rush was a Canadian rock band formed in Toronto in 1968">
+    <title>My first bootstrap website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light green">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://en.wikipedia.org/wiki/Rush_(band)">Link</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="row">
+            
+            <sidebar class="col-3">
+                Discography
+                <table border="4">
+                  <thead>
+                      <tr>
+          
+                         <th colspan="4">Studio albums</th>
+                      </tr>
+                      <tr>
+                          <td>Number</td>
+                          <td>Name</td>
+                          <td>Year</td>
+                          <td>Label</td>
+                          
+                      </tr>
+                  
+                  
+                  </thead>
+                  <tbody>
+                  <tr>
+                      <td>1 </td>
+                      <td><i>Rush</i></td>
+                      <td>1974</td>
+                      <td>Moon</td>   
+                  </tr>
+                  <tr>
+          
+                      <td>2 </td>
+                      <td><i>Fly By Night</i></td>
+                      <td>1975</td>
+                      <td>Mercury</td>
+                      
+                  </tr>
+                  <tr>
+                      <td>3</td>
+                      <td><i>Caress of Steel</i></td>
+                      <td>1975</td>
+                      <td>Mercury</td>
+                      
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td><i>2112</i></td>
+                    <td>1976</td>
+                    <td>Mercury</td>
+                    
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td><i>A Farewell to Kings</i></td>
+                  <td>1977</td>
+                  <td>Mercury</td>
+                  
+              </tr>
+              <tr>
+                <td>6</td>
+                <td><i>Hemispheres</i></td>
+                <td>1978</td>
+                <td>Mercury</td>
+                
+            </tr>
+            <tr>
+              <td>7</td>
+              <td><i>Permanent Waves</i></td>
+              <td>1980</td>
+              <td>Mercury</td>
+              
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><i>Moving Pictures</i></td>
+            <td>1981</td>
+            <td>Mercury</td>
+            
+        </tr>
+        <tr>
+          <td>9</td>
+          <td><i>Signals</i></td>
+          <td>1982</td>
+          <td>Mercury</td>
+          
+      </tr>
+      <tr>
+        <td>10</td>
+        <td><i>Grace Under Pressure</i></td>
+        <td>1984</td>
+        <td>Mercury</td>
+        
+    </tr>
+    </tbody>
+              </table>
+
+            </sidebar>
+            <div class="col-6">
+        <h1>Rush (band)</h1>
+        <p>
+            Rush was a Canadian rock band formed in Toronto in 1968 by Alex Lifeson (guitars, composer), John Rutsey (drums, percussion, lyricist), 
+            and Jeff Jones, who was immediately replaced by Geddy Lee (bass, vocals, keyboards, composer). 
+            After its formation the band went through several lineup configurations before arriving at its 
+            classic power trio lineup with the addition of Neil Peart in July 1974, who replaced 
+            Rutsey four months after the release of their self-titled debut album. 
+            This lineup remained intact for the remainder of the band's career.
+            </p>
+<h1>About</h1>
+            <p>
+                Rush is known for its musicianship, complex compositions, and eclectic lyrical motifs drawing heavily on science fiction, fantasy and philosophy. 
+                The band's style changed over the years, from a blues-inspired hard rock beginning, 
+                later moving into progressive rock, then a period marked by heavy use of synthesizers, 
+                before returning to guitar-driven hard rock since the end of the 1980s. 
+                The members of Rush have been acknowledged as some of the most proficient players on their respective instruments, 
+                with each winning numerous awards in magazine readers' polls.
+
+
+            </p>
+        </div>
+        <rightbar class="col-2">
+Very good band yes
+<form>
+  <fieldset>
+      <legend>Submit your favorite album</legend>
+<label for="name">Album name:</label>
+<input type="text" id="name">
+<label for="year">Album year:</label>
+<input type="text" id="year">
+Your birth date: <input type="date">
+Select your fav color: <input type="color" name="color">
+<button type="reset">Reset your form</button> 
+        <button type="submit">Submit</button>
+</fieldset>
+        </rightbar>
+    </div>
+</div>
+
+<footer class="row">
+        <h3>Here is the footer, nowhere else just here.</h3>       
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
